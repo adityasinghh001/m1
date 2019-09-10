@@ -1,0 +1,4 @@
+WCF Sevice - Host (self Hosting)
+Service 
+Host 
+Client

@@ -1,0 +1,6 @@
+1)   (40)
+asp.Net with WCF
+WcF service using Ado.Net and then consume that service in Asp.Net
+
+2)   (30)
+ASP.Net with MVC same question and same operation ,Maybe a Linq Query.....Definately a Query ....No scaffolding  (Book Master table)

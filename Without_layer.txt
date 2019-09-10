@@ -1,0 +1,7 @@
+1)Ready with presentation layer(Aspx PAge) ie Design aspx Page using asp.Net
+2)Add Class in Application name Entity
+//3)Create DAL and write Crud Operation in it.
+3)Create WCF service and write ADO.Net code in it.
+	We need to also have to a class replica of Entity for refering in WCF to use DataContract
+
+4)Create a HOst

@@ -1,0 +1,4 @@
+Create Post Method in Button for Insertion of record
+
+
+Add Reference for entity and BAl in servvice solution
