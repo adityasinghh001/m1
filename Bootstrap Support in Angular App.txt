@@ -1,0 +1,12 @@
+
+	Add JQuery & Bootstrap Support
+
+Using CDN to add bootstrap Support (you can also use phisical bootstrap files)
+
+* add following lines in index.html file from angular app
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+* You are ready to see bootstrap effect in your app.
