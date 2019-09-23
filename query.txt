@@ -1,0 +1,8 @@
+CREATE TABLE [wcf].[Employee] (
+    [EmpId]   INT           NOT NULL IDENTITY(1001, 1),
+    [EmpName] VARCHAR (30)  NULL,
+    [DOJ]     DATE          NULL,
+    [Salary]  MONEY         NULL,
+    [Address] VARCHAR (120) NULL,
+    PRIMARY KEY CLUSTERED ([EmpId] ASC)
+);
