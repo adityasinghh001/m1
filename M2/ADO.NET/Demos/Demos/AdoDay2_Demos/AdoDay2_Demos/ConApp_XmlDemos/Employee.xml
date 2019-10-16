@@ -1,0 +1,34 @@
+<Employees>  
+	<Employee Id="101">
+		<EmpName>Satish Kumar</EmpName>
+		<DOB>
+			<Day>31</Day>
+			<Month>3</Month>
+			<Year>1985</Year>
+		</DOB>
+		<Address>
+			<AddLine1>Flat No 194, Harish Apt</AddLine1>
+			<AddLine2>Shashri Nagar, Kothrud</AddLine2>
+			<City>Pune</City>
+			<State>Maharashtra</State>
+			<ZipCode>411032</ZipCode>
+		</Address>
+	    	<DeptId>1</DeptId>
+	</Employee>  
+	<Employee Id="102">
+		<EmpName>Ganesh Raut</EmpName>
+		<DOB>
+			<Day>20</Day>
+			<Month>8</Month>
+			<Year>1983</Year>
+		</DOB>
+		<Address>
+			<AddLine1>Flat No 13, 2nd Floor, Kalyan Apt</AddLine1>
+			<AddLine2>Guru Nagar, Sadashiv Peth</AddLine2>
+			<City>Pune</City>
+			<State>Maharashtra</State>
+			<ZipCode>411003</ZipCode>
+		</Address>
+		<DeptId>2</DeptId>
+	</Employee>  
+</Employees>

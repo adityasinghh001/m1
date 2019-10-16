@@ -1,0 +1,47 @@
+﻿<Window x:Class="Ado_DiscArch_Demo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ado_DiscArch_Demo"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="400" Width="300" Loaded="Window_Loaded">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock Text="Product Maintainance System" FontSize="16" Grid.ColumnSpan="4" HorizontalAlignment="Center" Grid.Row="0" Grid.Column="0" Margin="10,0,10,20"/>
+        <TextBlock Text="Product Name" Grid.Row="1" Grid.Column="0" Margin="5"/>
+        <TextBlock Text="Price" Grid.Row="2" Grid.Column="0" Margin="5"/>
+        <TextBlock Text="Expiry Date" Grid.Row="3" Grid.Column="0" Margin="5"/>
+
+        <!--<TextBox Name="txtProdName" Grid.Row="1" Grid.Column="1" Width="140" Margin="5" Text="{Binding ElementName=lbProdNames, Path=SelectedItem.ProdName}"/>-->
+        <ComboBox Name="cmbProdName" Grid.Row="1" Grid.Column="1" Width="140" Margin="5" IsEditable="True" />
+        <TextBox Name="txtPrice" Height="20" Grid.Row="2" Grid.Column="1" Width="140" Margin="5" Text="{Binding ElementName=cmbProdName, Path=SelectedItem.Price}"/>
+        <DatePicker Name="dpExpDate" Grid.Row="3" Grid.Column="1" Width="140" Margin="5" Text="{Binding ElementName=cmbProdName, Path=SelectedItem.ExpDate}" />
+        <StackPanel Orientation="Horizontal" Background="LightBlue" Grid.ColumnSpan="4" Grid.Row="4" Grid.Column="0">
+            <Button Name="btnInsert" Content="Insert" Width="80" Margin="5" Click="btnInsert_Click" />
+            <Button Name="btnUpdate" Content="Update" Width="80" Margin="5" Click="btnUpdate_Click" />
+            <Button Name="btnDelete" Content="Delete" Width="80" Margin="5" Click="btnDelete_Click" />
+        </StackPanel>
+        <DataGrid Name="dgProducts" Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="4" Height="120" MaxHeight="120" />
+        <Button Name="btnUpdateIntoDatabase" Content="Update Into Database" Grid.ColumnSpan="4" Grid.Row="6" Grid.Column="0" Margin="10" Click="btnUpdateIntoDatabase_Click"/>     
+    </Grid>
+</Window>

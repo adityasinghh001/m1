@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Students>
+  <Student Id="101">
+    <Name>Kirti</Name>   
+    <AvgMarks>69</AvgMarks>
+    <City>Pune</City>
+  </Student>
+  <Student Id="102">
+    <Name>Rohan</Name>
+    <AvgMarks>58</AvgMarks>
+    <MobileNo>7878654567</MobileNo>
+  </Student>
+  <Student Id="103">
+    <Name>Satish</Name>
+    <AvgMarks>51</AvgMarks>
+  </Student>
+</Students>
